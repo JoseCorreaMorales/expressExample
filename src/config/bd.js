@@ -12,7 +12,10 @@ let db = mysql.createConnection({
 db.connect((err) => {
     try {        
     if (err) { throw err; }
-        else { console.log('Conectado a la base de datos MySQL!'); }
+        else { console.log('Conectado a la base de datos MySQL!');
+
+        
+         }
     } catch (error) {
         console.log("Error al conectar a la base de datos", error.message);
     }
