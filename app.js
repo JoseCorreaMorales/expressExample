@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import { Config } from './src/config/index.js'
 
 const app = express();
 
